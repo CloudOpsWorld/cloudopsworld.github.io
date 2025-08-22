@@ -8,10 +8,12 @@
     {% seo %}
   </head>
   <body>
-    <header class="site-header">
-      <div class="wrap">
-        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-        <nav class="site-nav">
+    <header class="site-header" role="banner">
+      <div class="wrap header-wrap">
+        <a class="logo-link" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
+          {% include_relative assets/logo.svg %}
+        </a>
+        <nav class="site-nav" aria-label="Primary">
           <a href="{{ '/' | relative_url }}">Home</a>
           <a href="{{ '/about' | relative_url }}">About</a>
           <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
