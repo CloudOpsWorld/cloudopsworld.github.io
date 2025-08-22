@@ -1,0 +1,16 @@
+title: "My Markdown Blog"
+description: "A clean, fast blog that renders Markdown posts on GitHub Pages."
+# Replace with your real domain once set: e.g. https://www.example.com
+url: ""
+# Leave theme null because we provide our own layouts/styles
+theme: null
+# Supported plugins on GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: "<!--more-->"
+# Exclude dev-only files from the site output
+exclude:
+  - README.md

@@ -1,0 +1,19 @@
+---
+layout: default
+title: Home
+---
+
+<h1 class="home-heading">Latest posts</h1>
+
+<div class="post-list">
+  {% for post in site.posts %}
+  <article class="post-card">
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p class="meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+    <p class="excerpt">
+      {{ post.excerpt | strip_html | truncate: 180 }}
+    </p>
+    <p><a class="read-more" href="{{ post.url | relative_url }}">Read more →</a></p>
+  </article>
+  {% endfor %}
+</div>
