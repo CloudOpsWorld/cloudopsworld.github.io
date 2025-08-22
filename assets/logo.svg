@@ -1,0 +1,10 @@
+    <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 146.15273 82.723618" aria-label="CloudOpsWorld Logo" role="img" >
+      <g transform="translate(-178.61467,-29.020199)">
+        <text x="245.17545" y="63.965511" text-anchor="middle" fill="#008080"
+          font-family="Arial, sans-serif" font-size="48" font-weight="bold">Cloud</text>
+        <text x="280.41193" y="85.398804" text-anchor="middle" fill="#ff6600"
+          font-family="Arial, sans-serif" font-size="48" font-weight="bold">Ops</text>
+        <text x="252.66545" y="111.18131" text-anchor="middle" fill="#c83737"
+          font-family="Arial, sans-serif" font-size="48" font-weight="bold">World</text>
+      </g>
+    </svg>
